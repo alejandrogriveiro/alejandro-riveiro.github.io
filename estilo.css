@@ -249,12 +249,13 @@ html {
 
 /*HABILIDADES*/
 .contenedor-skills {
-    background: url(./img/Fondo1.jpg);
+    background: url(./img/Fondo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 100px 0;
+    color: #fff;
     text-align: center;
 }
 .contenedor-skills .skill {
@@ -278,7 +279,9 @@ html {
     height: 8px;
     margin: 10px;
 }
+
 /*PROGRESO DE BARRA ANIMADA CON JS*/
+
 .contenedor-skills .skill .barra .barra-progreso1 {
     background-color: #ff9800;
     width: 80%;
@@ -309,7 +312,15 @@ html {
     height: 8px;
     animation: progreso5 4s forwards;
 }
+.contenedor-skills .skill .barra .barra-progreso6 {
+    background-color: #ff9800;
+    width: 50%;
+    height: 8px;
+    animation: progreso5 4s forwards;
+}
+
 /*ANIMACION DE LAS BARRAS (JS)*/
+
 @keyframes progreso1 {
     0% {
         width: 0;
@@ -347,7 +358,15 @@ html {
         width: 0;
     }
     100% {
-        width: 80%;
+        width: 50%;
+    }
+}
+@keyframes progreso6 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
     }
 }
 
