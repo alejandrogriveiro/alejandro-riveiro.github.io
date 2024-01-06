@@ -194,7 +194,7 @@ html {
 #servicios .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
+    color: black;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -219,6 +219,7 @@ html {
 }
 #servicios .fila .servicio h4 {
     font-size: 22px;
+    color: #ff9800;
     margin-bottom: 25px;
 }
 #servicios .fila .servicio .icono {
@@ -241,11 +242,31 @@ html {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    color: white;
 }
 #servicios .fila .servicio p {
     font-size: 14px;
+    color: #ff9800;
     line-height: 22px;
+    font-weight: 600;
 }
+#img_web{
+    background-image: url(./img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img_adm{
+    background-image: url(./img/img_cont.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+
+
 
 /*HABILIDADES*/
 .contenedor-skills {
